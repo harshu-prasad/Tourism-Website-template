@@ -1,60 +1,117 @@
 /* Importing Font for main background */
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
 
-*{
-    margin: 0px;
-    padding: 0px;
+/* Importing Google Font for category name */
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&display=swap');
+
+/* Importing Google Font for category discription */
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@700&display=swap');
+
+* {
+	margin: 0px;
+	padding: 0px;
 }
 
-.mainBackGroundArea{
-    margin-top: 14vh;
-    margin-left: 5vw;
+.mainBackGroundArea {
+	margin-top: 14vh;
+	margin-left: 5vw;
 }
 
-.description{
-    color: white;
-    font-size: 3.4rem;
-    font-family: 'Oswald', sans-serif;
+.description {
+	color: white;
+	font-size: 3.4rem;
+	font-family: 'Oswald', sans-serif;
 }
 
-.hover-div-visible{
-    display: flex;
-    padding: 0 12vw;
-    vertical-align: middle;
+.hover-div-visible {
+	display: flex;
+	padding: 0 12vw;
+	vertical-align: middle;
 }
 
-.hover-div-visible-div{
-    border: 3px solid white;
-    width: 30vw;
-    height: 20vh;
-    border-radius: 40px;
-    padding-top: 4vh;
-    padding-left: 2vw;
-    font-family: 'Oswald', sans-serif;
+.hover-div-visible-div {
+	border: 3px solid white;
+	width: 30vw;
+	height: 20vh;
+	border-radius: 40px;
+	padding-top: 4vh;
+	padding-left: 2vw;
+	font-family: 'Oswald', sans-serif;
 }
 
-.hover-div-visible-div-span{
-    font-size: 4.2rem;
-    color: white;
+.hover-div-visible-div-span {
+	font-size: 4.2rem;
+	color: white;
 }
 
-.hover-div-visible-phone-icon{
-    height: 4rem;
-    width: 4rem;
+.hover-div-visible-phone-icon {
+	height: 4rem;
+	width: 4rem;
 }
 
-#book-online-parent-div{
-    margin-right: 2vw;
-    align-items: center;
-    cursor: pointer;
+#book-online-parent-div {
+	margin-right: 2vw;
+	align-items: center;
+	cursor: pointer;
 }
 
-#call-us-parent-div{
-    margin-left: 2vw;
-    align-items: center;
-    cursor: pointer;
+#call-us-parent-div {
+	margin-left: 2vw;
+	align-items: center;
+	cursor: pointer;
 }
 
-.display-none{
-    display: none;
+.display-none {
+	display: none;
+}
+
+/* About Us Part Starts Here */
+
+.about-us {
+	display: flex;
+	width: 80vw;
+	margin: 5vh 5vw;
+}
+
+.category-name {
+	color: rgb(255, 105, 5);
+	font-size: 1.6rem;
+	font-family: 'Mochiy Pop One', sans-serif;
+}
+
+.category-introduction {
+	font-size: 2.2rem;
+	font-family: 'Oswald', sans-serif;
+}
+
+.category-description {
+	font-family: 'Baloo Da 2', cursive;
+	font-size: 1.3rem;
+}
+
+.category-img {
+    /* margin-top: 12vh; */
+	height: 55vh;
+	width: 30vw;
+    border-radius: 1.01rem;
+    box-shadow: 1.1rem 1.1rem 0.1rem rgb(255, 151, 82);
+}
+
+.about-us-part-1 {
+	margin-right: 2vw;
+    width: 40vw;
+}
+
+.about-us-part-2 {
+	margin-left: 2vw;
+}
+
+.category-btn {
+	height: 10vh;
+    font-family: 'Baloo Da 2', cursive;
+    font-size: 1.1rem;
+	border-radius: 1.021rem;
+	width: 10vw;
+	border: 1px solid orange;
+	background-color: rgb(251 168 113);
 }
