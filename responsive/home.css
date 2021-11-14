@@ -1,0 +1,48 @@
+@media only screen and (max-width: 1302px){
+    .hover-div-visible{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .hover-div-visible-div{
+        margin-top: 4vh;
+    }
+
+    .about-us{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 12vh 0;
+        margin-left: 15vw;
+    }
+
+    .sub-categories{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 1vh;
+    }
+
+    .services{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 12vh 0;
+        margin-left: 15vw;
+    }
+}
+
+@media only screen and (max-width: 1000px){
+    .category-img{
+        height: 40vh;
+        width: 40vw;
+    }
+
+    .first-part{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}

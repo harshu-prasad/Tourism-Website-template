@@ -15,17 +15,34 @@
     <!-- Linking the CSS File that will design the navigation bar of the website -->
     <link rel="stylesheet" href="../css/navigation bar.css">
 
+    <!-- Linking the css file that will design and make the navigation bar responsive -->
+    <link rel="stylesheet" href="../responsive/navigation_bar.css">
+
+    <!-- Linking the css file that will design and make the home page responsive -->
+    <link rel="stylesheet" href="../responsive/home.css">
+    
+    <!-- Linking Font Awesome Kit Code  -->
+    <script src="https://kit.fontawesome.com/87a7a6d7c9.js" crossorigin="anonymous"></script>
+
+    <!-- Linking Google Icons to the HTML page -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 
 </head>
 <body>
     <div class="mainHomeDiv">
+        <span class="material-icons closeBtn" style="font-size: 3.5rem; display: none;">close</span>
         <nav class="navigation-bar">
             <span class="company-name">TB Tours and Travels</span>
-            <ul class="navigation-bar-ul">
-                <li><a href="home.html">Home</a></li>
-                <li><a href="home.html">About Us</a></li>
-                <li><a href="home.html">Services</a></li>
-                <li><a href="home.html">Contact Us</a></li>
+            <div class="hamburger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+            <ul class="navigation-bar-ul width-resp">
+                <li><a href="#" class="nav-li visibility-resp">Home</a></li>
+                <li><a href="#" class="nav-li visibility-resp">About Us</a></li>
+                <li><a href="#" class="nav-li visibility-resp">Services</a></li>
+                <li><a href="#" class="nav-li visibility-resp">Contact Us</a></li>
             </ul>
         </nav>
         <div class="mainBackGroundArea">
@@ -52,9 +69,76 @@
     </div>
     </div>
 
+    <!-- From here we will start designing services part of website -->
+    
+    <div class="services">
+        <div class="services-part-1 sub-categories">
+        <span class="category-name">What we provide</span>
+        <h2 class="category-introduction">We help our customers reach their favouraite locations in most affordable prices with utmost luxury</h2>
+        <p class="category-description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad incidunt labore iusto inventore sapiente, odit eaque voluptates sequi excepturi perferendis ratione ab doloremque voluptatem aut delectus id molestias dolores porro a quae beatae quisquam rem? Est atque quis amet reprehenderit obcaecati corporis enim unde deserunt.</p>
+        <button class="category-btn">Read More</button>
+    </div>
+    <div class="services-part-2 sub-categories">
+        <img src="../img/services image.jpg" alt="" class="category-img img-1">
+    </div>
+    </div>
+
+    <!-- From here we will start designing services part of website -->
+    <div class="contact-us">
+        <div class="contact-span-parent-div">
+        <span class="contact-form-span">
+            Contact Us
+        </span>
+    </div>
+
+        <form class="contact-form">
+            <input type="text" class="contact-input contact-height-input" placeholder="Enter Your Name">
+            <input type="email" class="contact-input contact-height-input" placeholder="Enter Your Email">
+            <input type="number" class="contact-input contact-height-input" placeholder="Enter Your Mobile Number">
+            <textarea cols="30" rows="10" placeholder="Why are you contacting us?" class="contact-input"></textarea>
+            <button type="submit" class="category-btn">Submit</button>
+        </form>
+    </div>
+
+    <!-- From here we will start designing services part of website -->
+    <footer>
+        <div class="first-part">
+            <div class="footer-first-part-child-div footer-about-us-part">
+                <span class="footer-category-title">About TB Tours and Travels</span>
+                <p class="footer-category-description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, quae sint non numquam nobis nesciunt ullam sit, porro ab dolorem earum voluptates aperiam saepe? Ullam esse quam omnis temporibus?
+                </p>
+            </div>
+            <div class="footer-first-part-child-div footer-contact-us-part">
+                <span class="footer-category-title">Contact Us</span>
+                <ul class="contact-options-ul">
+                    <li class="contact-options">Mount Olympus, Mars</li>
+                    <li class="contact-options">+91 8767868778</li>
+                    <li class="contact-options">022 65765768</li>
+                    <li class="contact-options">no-email-id@tb.com</li>
+                </ul>
+            </div>
+        </div>
+        <div class="second-part">
+            <span class="footer-category-title">Connect</span>
+            <div class="link-icons-parent-div">
+                <i class="fab fa-instagram-square link-icons"></i>
+                <i class="fab fa-facebook-square link-icons"></i>
+                <i class="fab fa-linkedin link-icons"></i>
+                <i class="fab fa-pinterest-square link-icons"></i>
+            </div>
+        </div>
+        <div class="last-part">
+            Copyright ©2021 All righs reserved | By TB Tours and Travels
+        </div>
+    </footer>
+
 </body>
 
 <!-- Linking the Javascript file that will animate main Background Area -->
 <script src="../js/home_background.js"></script>
+
+<!-- Linking the Javascript file that will animate main Background Area -->
+<script src="../js/responsive navigation bar.js"></script>
 
 </html>

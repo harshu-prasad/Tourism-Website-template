@@ -1,6 +1,8 @@
 /* Importing Font for main background */
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap');
+
 /* Importing Google Font for category name */
 @import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&display=swap');
 
@@ -113,5 +115,107 @@
 	border-radius: 1.021rem;
 	width: 10vw;
 	border: 1px solid orange;
-	background-color: rgb(251 168 113);
+	background-color: rgb(251,168,113);
+}
+
+.services {
+	display: flex;
+	flex-direction: row-reverse;
+	width: 80vw;
+	margin: 5vh 5vw;
+}
+
+.services-part-1 {
+	margin-right: 2vw;
+	width: 40vw;
+	margin-left: 2vw;
+}
+
+.services-part-2 {
+	margin-left: 2vw;
+	margin-right: 3vw;
+}
+
+/* From this part we will start designing the contact form */
+
+.contact-form{
+	display: flex;
+	flex-direction: column;
+	width: 50vw;
+	justify-content: center;
+	margin: 0 auto;
+	margin-top: 2vh;
+}
+
+.contact-input{
+	margin-bottom: 2.1vh;
+	padding: 2vh 1vw;
+}
+
+.contact-input:focus{
+	outline: none;
+	border: 2px solid rgb(255, 105, 5);
+	box-shadow: 0.2px 0.2px 20px rgb(184, 184, 184);
+}
+
+.contact-form-span{
+	color: rgb(255, 105, 5);
+	font-size: 2.8rem;
+	font-family: 'Mochiy Pop One', sans-serif;
+}
+
+.contact-span-parent-div{
+	text-align: center;
+}
+
+/* From Here we will stat designing the footer of the website */
+footer{
+	background-color: rgb(255, 105, 5);
+	color: white;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-top: 5vh;
+}
+
+.footer-category-title{
+	font-family: 'Merriweather', serif;
+	font-size: 1.5rem;
+}
+
+.footer-category-description{
+	font-family: 'Baloo Da 2', cursive;
+	font-size: 1.1rem;
+}
+
+.last-part{
+	font-family: 'Baloo Da 2', cursive;
+	font-size: 1.3rem;
+}
+
+.first-part{
+	display: flex;
+	justify-content: space-between;
+}
+
+.footer-about-us-part{
+	width: 40vw;
+	margin: 2vh 3vw;
+}
+
+.footer-contact-us-part{
+	width: 40vw;
+	margin: 2vh 3vw;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.contact-options{
+	list-style: none;
+	text-decoration: none;
+	font-family: 'Baloo Da 2', cursive;
+	font-size: 1.1rem;
 }

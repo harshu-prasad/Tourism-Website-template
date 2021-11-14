@@ -1,0 +1,27 @@
+@media only screen and (max-width: 1302px){
+    .hamburger{
+        display:  flex;
+        flex-direction: column;
+    }
+
+    .navigation-bar-ul{
+        flex-direction: column;
+        height: 100vh;
+        position: absolute;
+        top: 0;
+        right: 0;
+        margin-top: 0;
+        align-items: center;
+        justify-content: center;
+        width: 50vw;
+        background-color: rgb(243, 121, 21);
+    }
+
+    .navigation-bar-ul li{
+        padding: 3vh 0;
+    }
+
+    .width-resp{
+        right: -70%;
+    }
+}
